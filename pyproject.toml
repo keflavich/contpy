@@ -11,3 +11,6 @@ packages = ['statcont']
 [project]
 name = "statcont"
 dynamic = ['version', 'authors', 'dependencies', 'readme', 'description', 'requires-python', 'optional-dependencies', 'license']
+
+[project.scripts]
+statcont = "statcont:main"
